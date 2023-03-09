@@ -1,3 +1,8 @@
-[gd_scene format=3 uid="uid://217ym2m4n3b8"]
+[gd_scene load_steps=2 format=3 uid="uid://217ym2m4n3b8"]
+
+[ext_resource type="Script" path="res://Program/InputHandler.cs" id="1_5glu7"]
 
 [node name="Root" type="Node"]
+
+[node name="InputHandler" type="Node" parent="."]
+script = ExtResource("1_5glu7")

@@ -1,19 +1,31 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vecsuan", "Vecsuan.csproj", "{B193746B-87DB-4661-80CF-97153BD8DB96}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vecsuan", "Vecsuan.csproj", "{92F5A09B-CEF0-4D1B-AF19-8FFCDAD3B35C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-	Debug|Any CPU = Debug|Any CPU
-	ExportDebug|Any CPU = ExportDebug|Any CPU
-	ExportRelease|Any CPU = ExportRelease|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		ExportDebug|Any CPU = ExportDebug|Any CPU
+		ExportRelease|Any CPU = ExportRelease|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B193746B-87DB-4661-80CF-97153BD8DB96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B193746B-87DB-4661-80CF-97153BD8DB96}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B193746B-87DB-4661-80CF-97153BD8DB96}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
-		{B193746B-87DB-4661-80CF-97153BD8DB96}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
-		{B193746B-87DB-4661-80CF-97153BD8DB96}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
-		{B193746B-87DB-4661-80CF-97153BD8DB96}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{92F5A09B-CEF0-4D1B-AF19-8FFCDAD3B35C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F5A09B-CEF0-4D1B-AF19-8FFCDAD3B35C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F5A09B-CEF0-4D1B-AF19-8FFCDAD3B35C}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{92F5A09B-CEF0-4D1B-AF19-8FFCDAD3B35C}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{92F5A09B-CEF0-4D1B-AF19-8FFCDAD3B35C}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{92F5A09B-CEF0-4D1B-AF19-8FFCDAD3B35C}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{92F5A09B-CEF0-4D1B-AF19-8FFCDAD3B35C}.Release|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{92F5A09B-CEF0-4D1B-AF19-8FFCDAD3B35C}.Release|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {127B058D-FF85-4421-A897-BC0E15551D3B}
 	EndGlobalSection
 EndGlobal

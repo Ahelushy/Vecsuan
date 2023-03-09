@@ -12,9 +12,19 @@ config_version=5
 
 config/name="Vecsuan"
 run/main_scene="res://Main.tscn"
-config/features=PackedStringArray("4.0", "Forward Plus")
+config/features=PackedStringArray("4.0", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
 [dotnet]
 
 project/assembly_name="Vecsuan"
+
+[editor_plugins]
+
+enabled=PackedStringArray()
+
+[layer_names]
+
+2d_physics/layer_1="Point"
+2d_physics/layer_2="Line"
+2d_physics/layer_3="Polygon"
