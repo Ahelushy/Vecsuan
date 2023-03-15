@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Vecsuan.Element;
 
-internal partial class Line : Node2D
+internal partial class Line : ElementBase
 {
     //成员属性
     private readonly Point[] _EndPoints = new Point[2];
@@ -16,7 +16,6 @@ internal partial class Line : Node2D
     public Vector2[] EndPositions { get => (from endPoint in _EndPoints select endPoint.Position).ToArray(); }
 
     //工厂
-    private Line() { }
     private static readonly PackedScene Scene = GD.Load<PackedScene>("res://Element/Line.tscn");
     public static Line NewInstance(Point start, Point end)
     {
@@ -27,9 +26,7 @@ internal partial class Line : Node2D
     }
 
     //显示
-    [Export]
-    private Color Color { get; set; }
-    public override void _Draw()
+    protected override void Display()
     {
         DrawLine(EndPositions[0], EndPositions[1], Color);
     }
