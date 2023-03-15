@@ -6,7 +6,6 @@
 [node name="Point" type="StaticBody2D"]
 collision_mask = 0
 script = ExtResource("1_u3eoc")
-Color = Color(1, 1, 1, 1)
 
 [node name="Collision" type="CollisionShape2D" parent="."]
 shape = ExtResource("1_35mor")
